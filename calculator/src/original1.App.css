@@ -1,0 +1,46 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.calc {
+  width: 300px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.result, .input-pad, .calc {
+  border: 1px solid black;
+}
+
+.result {
+  height: 200px;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+.input-pad {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 300px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.actions {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+.operators {
+  display: grid;
+  grid-template-columns: 1fr;
+  height: 300px;
+}
